@@ -1,14 +1,45 @@
-/* MAIN PAGE LINKS */
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 body
 {
-    background-color: darkred;
+    background-color: #F5F5DC;
+}
+
+.header
+{
+    background-color: #800020;
+    margin: 0px auto 15px;
+    padding: 10px 0px 10px;
+}
+
+.main-links
+{
+    width: 500px;
+    height: 300px;
+    margin: 40px auto;
+    list-style: none;
+    padding: 40px;
+    text-align: center;
+
+}
+
+ul.main-links li
+{
+    margin: 10px;
+    background-color: #A67B5B;
+    padding: 12px;
 }
 
 li a.main-recipe-link
-{
+{   
+    display: block;
     text-decoration: none;
-    color: gold;
+    color: #D4AF37;
     font-weight: bold;
 }
 
@@ -21,16 +52,40 @@ li a.main-recipe-link
     text-align: center;
 }
 
+.titles
+{
+    color: #A67B5B;
+}
+
 .subtitles
 {
-    color: goldenrod;
-    background-color: rgb(95, 30, 30) ;
+    color: #FFFDD0;
+    background-color: #A67B5B ;
     text-align: center;
+    padding: 8px 0 8px 0;
+    text-decoration: none;
+}
+
+.description-container
+{
+    margin-top: 10px;
+}
+
+.description,
+.ingredients,
+.steps
+{
+    margin: 24px;
 }
 
 ol.steps li strong
 {
     color: goldenrod;
+}
+
+.footer
+{
+    text-align: center;
 }
 
 a.backhome-link
@@ -39,4 +94,5 @@ a.backhome-link
     font-style: italic;
     color: black;
     font-weight: bolder;
+    text-align: center;
 }
